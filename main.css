@@ -1,74 +1,51 @@
-html, body, div, h1, header, p {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline; 
-}
-
-html {
-    font-size: 16px;
-    font-family: Futura, Georgia, sans-serif;
-}
-
 body {
+    margin: 0 auto;
+    max-width: 50%;
     color: #333;
     font-size: 1rem;
     line-height: 1.5;
+    font-size: 14px;
+    font-family: Futura, Georgia, sans-serif;
+    display: block;
 }
 
-h1 {
-    font-size: 2.25rem;
-    line-height: 1.1;
+h2 {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
 }
 
 a {
-    color: #4B0082;
+    color: #551A8B;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #551A8B;
+    color: #A268D7;
     transition: color .3s ease 0s;
 }
 
-.border {
-    padding: 2rem !important; 
-}
-
-.page-center {
-    display: flex;
-    margin: 0px auto;
-    min-height: 100%;
+.about {
     width: 75%;
-}
-
-.avatar {
-    background: #333;
-    height: 100px;
-    width: 100px;
+    margin: 0 auto;
+    display: block;
 }
 
 .circle {
     border-radius: 50%;
-    display: inline-block;
+    max-width: 100px;
 }
 
-.home {
-    margin: 0px auto;
-    position: relative;
-    padding: 3.5em;
-    width: 75%;
+.logo {
+    text-align: center;
+    padding-top: 20px;
 }
 
 .social-media-list {
-  margin: 0px auto;
   list-style-type: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
   text-align: center;
   font-size: 1.5em;
-  width: 75%;
+  padding-top: 15px 0 15px 0;
 }
 
 .social-media-list li {
@@ -76,6 +53,7 @@ a:hover {
     padding: 0 5px 0 5px;
 }
 
-.social-media-list a {
-       color: @grayLight;
+.social {
+    padding-left: 0px;
 }
+
